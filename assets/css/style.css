@@ -1,0 +1,47 @@
+header {
+    margin: 0 auto;
+    background: #fff;
+    border: #cccccc 1px solid;
+}
+
+h1 {
+    color: white;
+    background: #4aaaa5;
+    font-family: Georgia;
+}
+
+h2 {
+    color: #4aaaa5;
+    height: 40px;
+    width: 30%;
+    font-family: Georgia;
+}
+
+li {
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+img {
+    float: left;
+    height: 240px;
+    width: 240px;
+}
+
+p {
+    float: right;
+    clear: both;
+    line-height: 2;
+}
