@@ -21,7 +21,7 @@ h1 {
     background: #4aaaa5;
     font-family: Georgia;
     width: 960px;
-    
+    display: inline-block;
 }
 
 h2 {
@@ -82,3 +82,20 @@ ul {
     margin right: 20px;
 }
 
+form {
+    width: 920px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+#biginput {
+    width: 900px;
+    height: 200px;
+}
+
+button {
+    background: #4aaaa5;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
