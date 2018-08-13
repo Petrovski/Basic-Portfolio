@@ -1,5 +1,6 @@
 body {
     background-image: url(https://i.imgur.com/m8bTEaN.png);
+    margin: 0;
 }
 
 header {
@@ -19,8 +20,8 @@ h1 {
     color: white;
     background: #4aaaa5;
     font-family: Georgia;
-    width: 30%;
-    margin: 0 auto;
+    width: 960px;
+    
 }
 
 h2 {
@@ -44,6 +45,7 @@ div {
     margin: 0 auto;
     height: 540px;
 } 
+
 hr {
     border: 0;
     height: 1px;
@@ -62,3 +64,21 @@ p {
     line-height: 2;
     font-family: Arial;
 }
+
+ul {
+    padding-right: 20px;
+}
+
+#bullets {
+    list-style-type: none;
+}
+
+.two-lis {
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+#one-li {
+    margin right: 20px;
+}
+
