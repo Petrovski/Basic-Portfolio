@@ -12,17 +12,16 @@ header {
     margin: 0;
 }
 
-nav {
-    margin-bottom: 40px;
-}
-
 h1 {
     color: white;
     background: #4aaaa5;
     font-family: Georgia;
-    width: 960px;
+    width: 240px;
     display: inline-block;
+    margin-left: 280px;
+    position: inherit;
 }
+
 
 h2 {
     color: #4aaaa5;
@@ -59,14 +58,16 @@ img {
 }
 
 p {
-    float: right;
-    clear: both;
-    line-height: 2;
+    line-height: 2.5;
     font-family: Arial;
 }
 
 ul {
     padding-right: 20px;
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+    position: inherit;
 }
 
 #bullets {
@@ -116,5 +117,17 @@ button {
 }
 
 .img-names {
-    float: left;
+    top: 420px;
+    text-align: center;
+    width: 288px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4aaaa5;
+    color: white;
+}
+
+#h1div {
+    width: 960px;
+    height: 60px;
+    margin-right: 600px;
 }
