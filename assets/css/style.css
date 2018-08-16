@@ -12,14 +12,31 @@ header {
     margin: 0;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    width: 100%;
+    right: 0;
+    text-align: center;
+}
+
 h1 {
     color: white;
     background: #4aaaa5;
     font-family: Georgia;
     width: 240px;
     display: inline-block;
-    margin-left: 280px;
-    position: inherit;
+    height: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
 }
 
 
@@ -34,7 +51,6 @@ li {
     float: right;
     margin-right: 40px;
     margin-bottom: 40px;
-    position: inherit;
     font-family: Arial;
 }
 
@@ -66,8 +82,6 @@ ul {
     padding-right: 20px;
     display: inline-block;
     float: right;
-    margin-top: 30px;
-    position: inherit;
 }
 
 #bullets {
@@ -104,30 +118,56 @@ button {
     color: white;
     margin-top: 20px;
     padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    font-family: Arial;
 }
 
 .portfolioimages {
     width: 30%;
     float: left;
     margin: 1.66%;
+    height: 200px;
 }
 
 .portfoliodiv {
-    height: 880px;
+    height: 520px;
 }
 
 .img-names {
-    top: 420px;
     text-align: center;
-    width: 288px;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background: #4aaaa5;
     color: white;
+    position: absolute;
+    margin: 150px;
+    width: 20%;
+    display: table;
+    clear: both;
 }
 
 #h1div {
     width: 960px;
     height: 60px;
     margin-right: 600px;
+}
+
+table {
+    float: left;
+    position: absolute;
+    font-family: Arial;
+    color: white;
+    border-spacing: 100px 150px;
+}
+
+td {
+    background: #4aaaa5;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    margin: 5%;
+}
+
+#jill {
+    margin-right: 20px;
 }
